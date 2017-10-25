@@ -1,14 +1,14 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "BubbleSort.h"
+#include "BubbleSort.cpp"
 
 using namespace std;
 
 int main() {
     string line;
     string *palabras = new string[2014323]();
-    ifstream miArchivo("dic.txt");
+    ifstream miArchivo("dicc.txt");
     unsigned long indice = 0;
 
     if (miArchivo.is_open()) {

@@ -1,7 +1,5 @@
 #include "BubbleSort.h"
 
-
-
 template <class T>
 void bubbleSort(T *vect, unsigned long tamanio){
     unsigned long i;
@@ -18,3 +16,5 @@ void bubbleSort(T *vect, unsigned long tamanio){
             }
     }while(flag==1);
 }
+
+//template <>void bubbleSort<string>(string *vect, unsigned long tamanio){}
