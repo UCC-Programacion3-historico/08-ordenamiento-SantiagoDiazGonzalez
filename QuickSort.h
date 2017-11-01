@@ -3,7 +3,9 @@
 
 
 template <class T>
-void quickSort(T *vect, unsigned long inicio, unsigned long fin);
+void quickSort(T *vect, unsigned long inicio, unsigned long fin){
+
+}
 
 
 #endif //QUICKSORT_H

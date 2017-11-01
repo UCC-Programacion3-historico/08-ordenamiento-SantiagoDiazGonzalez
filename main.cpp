@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "BubbleSort.h"
+#include "InterSort.h"
 
 using namespace std;
 
@@ -17,7 +17,7 @@ int main() {
             indice++;
         }
 
-        bubbleSort<string>(palabras, indice - 1);
+        interSort<string>(palabras, indice - 1);
 
         for (unsigned long i = 0; i < indice; i++)
             cout << palabras[i] << endl;
@@ -26,3 +26,5 @@ int main() {
         cout << "No se pudo leer el archivo.";
     return 0;
 }
+
+//http://es.tldp.org/Tutoriales/doc-programacion-algoritmos-ordenacion/alg_orden.pdf
