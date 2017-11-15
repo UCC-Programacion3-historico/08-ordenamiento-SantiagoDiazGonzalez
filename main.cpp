@@ -1,6 +1,9 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include "BubbleSort.h"
+#include "ShellSort.h"
+#include "QuickSort.h"
 #include "InterSort.h"
 
 using namespace std;
@@ -26,5 +29,3 @@ int main() {
         cout << "No se pudo leer el archivo.";
     return 0;
 }
-
-//http://es.tldp.org/Tutoriales/doc-programacion-algoritmos-ordenacion/alg_orden.pdf
